@@ -3,11 +3,11 @@ var spawnCreeps = {
     /** @param {Creep} creep **/
     run: function() {
 
-        var harvesterNumber = 5;
+        var harvesterNumber = 3;
         var builderNumber = 1;
         var upgraderNumber = 2;
         var repairersNumber = 1;
-        var bigHarvesterNumber = 6;
+        var bigHarvesterNumber = 2;
 
         var tier1 = [WORK,CARRY,MOVE];
         var tier2 = [WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE];
